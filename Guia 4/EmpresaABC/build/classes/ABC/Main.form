@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[648, 320]"/>
+    </Property>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[623, 440]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[623, 440]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="crearRandom" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="mostrarEmpleados" alignment="0" min="-2" pref="209" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="109" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="crearaMano" min="-2" pref="209" max="-2" attributes="0"/>
+                  <Component id="ordenarEmpleados" min="-2" pref="209" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="200" max="-2" attributes="0"/>
+                      <Component id="mostrarBonos" min="-2" pref="209" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="crearRandom" alignment="3" min="-2" pref="71" max="-2" attributes="0"/>
+                  <Component id="crearaMano" alignment="3" min="-2" pref="71" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ordenarEmpleados" alignment="3" min="-2" pref="71" max="-2" attributes="0"/>
+                  <Component id="mostrarEmpleados" alignment="3" min="-2" pref="71" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="mostrarBonos" min="-2" pref="71" max="-2" attributes="0"/>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Black" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Gesti&#xf3;n de empleados"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="crearRandom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Crear empleados de manera Random"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="crearRandomActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="crearaMano">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Crear empleados manualmente"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="crearaManoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="mostrarEmpleados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mostrar empleados"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mostrarEmpleadosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ordenarEmpleados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ordenar Empleados"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ordenarEmpleadosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="mostrarBonos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mostrar Bonos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mostrarBonosActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
